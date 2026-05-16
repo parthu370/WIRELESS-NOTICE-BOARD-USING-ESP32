@@ -1,0 +1,60 @@
+ESP32 Wireless Notice Board Pin Connections
+
+--------------------------------------------------
+ILI9341 TFT Display Connections
+--------------------------------------------------
+
+TFT VCC    -> ESP32 3.3V
+TFT GND    -> ESP32 GND
+TFT CS     -> GPIO 15
+TFT RESET  -> GPIO 4
+TFT DC     -> GPIO 2
+TFT MOSI   -> GPIO 23
+TFT SCK    -> GPIO 18
+TFT LED    -> 3.3V
+TFT MISO   -> GPIO 19
+
+--------------------------------------------------
+DS3231 RTC Module Connections
+--------------------------------------------------
+
+RTC VCC    -> ESP32 3.3V
+RTC GND    -> ESP32 GND
+RTC SDA    -> GPIO 21
+RTC SCL    -> GPIO 22
+
+--------------------------------------------------
+Push Button Connections
+--------------------------------------------------
+
+Button One Side   -> GPIO 13
+Button Other Side -> GND
+
+--------------------------------------------------
+Solar Power Supply Connections
+--------------------------------------------------
+
+Solar Panel +  -> TP4056 IN+
+Solar Panel -  -> TP4056 IN-
+
+Battery +      -> TP4056 B+
+Battery -      -> TP4056 B-
+
+TP4056 OUT+    -> MT3608 IN+
+TP4056 OUT-    -> MT3608 IN-
+
+MT3608 OUT+    -> ESP32 VIN
+MT3608 OUT-    -> ESP32 GND
+
+--------------------------------------------------
+Communication Protocols
+--------------------------------------------------
+
+SPI Communication used for TFT:
+MOSI -> GPIO 23
+MISO -> GPIO 19
+SCK  -> GPIO 18
+
+I2C Communication used for TFT:
+SDA -> GPIO 21
+SCL -> GPIO 22

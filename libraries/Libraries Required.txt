@@ -1,0 +1,126 @@
+ESP32 Wireless Notice Board - Required Libraries
+
+--------------------------------------------------
+ESP32 Board Package
+--------------------------------------------------
+
+Install ESP32 board package in Arduino IDE using:
+
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+Board Used:
+ESP32 Dev Module
+
+--------------------------------------------------
+Required Libraries
+--------------------------------------------------
+
+1. ESPAsyncWebServer
+Purpose:
+Used to create asynchronous web server for image upload and web control panel.
+
+2. AsyncTCP
+Purpose:
+Required dependency for ESPAsyncWebServer.
+
+3. RTClib
+Purpose:
+Used for DS3231 RTC module communication and time management.
+
+4. Adafruit GFX Library
+Purpose:
+Graphics library for TFT display rendering.
+
+5. Adafruit ILI9341
+Purpose:
+Driver library for ILI9341 TFT display.
+
+6. JPEGDecoder
+Purpose:
+Used to decode and display JPEG images on TFT screen.
+
+7. LittleFS
+Purpose:
+Internal file storage system used for storing uploaded images.
+
+8. WiFi
+Purpose:
+Used for ESP32 WiFi Access Point and networking.
+
+9. SPI
+Purpose:
+SPI communication protocol for TFT display.
+
+10. Wire
+Purpose:
+I2C communication protocol for RTC module.
+
+--------------------------------------------------
+Library Installation Steps
+--------------------------------------------------
+
+1. Open Arduino IDE
+
+2. Go to:
+Sketch -> Include Library -> Manage Libraries
+
+3. Search and install these libraries:
+
+- ESPAsyncWebServer
+- AsyncTCP
+- RTClib
+- Adafruit GFX
+- Adafruit ILI9341
+- JPEGDecoder
+
+4. Restart Arduino IDE after installation
+
+--------------------------------------------------
+ESP32 Board Installation
+--------------------------------------------------
+
+1. Open Arduino IDE
+
+2. Go to:
+File -> Preferences
+
+3. Paste this URL in:
+"Additional Boards Manager URLs"
+
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+4. Go to:
+Tools -> Board -> Boards Manager
+
+5. Search:
+ESP32
+
+6. Install:
+ESP32 by Espressif Systems
+
+--------------------------------------------------
+Board Configuration
+--------------------------------------------------
+
+Board:
+ESP32 Dev Module
+
+Flash Size:4MB
+
+Partition Scheme:Default 4MB with SPIFFS
+
+Upload Speed:921600
+
+--------------------------------------------------
+Project Uses
+--------------------------------------------------
+
+- Embedded C++
+- ESP32 WiFi
+- Web Server
+- LittleFS File System
+- TFT Graphics Rendering
+- RTC Time Management
+- JPEG Image Processing
+- Solar Power Integration
+- Android App Integration
