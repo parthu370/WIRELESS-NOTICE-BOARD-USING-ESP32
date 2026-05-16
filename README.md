@@ -465,18 +465,18 @@ The mobile application is being developed to improve accessibility and provide a
 \---
 
 
-
+s
 **## Project Screenshots**
 
-## Hardware Setup
+**## Hardware Setup
 
 ![Hardware Setup](images/Hardware setup/ESP32 devmodule.jpeg)
 
-## TFT Display Output
+**## TFT Display Output
 
 ![TFT Output](images/TFT display output/output of TFT display.jpeg)
 
-## Web Control Panel
+**## Web Control Panel
 
 ![Login Page](images/Web control panel screenshot/Login page.jpeg)
 
