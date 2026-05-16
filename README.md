@@ -468,41 +468,17 @@ The mobile application is being developed to improve accessibility and provide a
 
 **## Project Screenshots**
 
-
-
 \### Hardware Setup
 
-
-
-Hardware component images are available inside:
-
-
-
-images/hardware\_setup/
-
-
+Hardware component images are available inside:images/hardware\_setup/
 
 \### TFT Display Output
 
-
-
-TFT display output images are available inside:
-
-
-
-images/tft\_display\_output/
-
-
+TFT display output images are available inside:images/tft\_display\_output/
 
 \### Web Control Panel
 
-
-
-Web interface screenshots are available inside:
-
-
-
-images/web\_control\_panel/
+Web interface screenshots are available inside:images/web\_control\_panel/
 
 
 
